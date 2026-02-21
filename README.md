@@ -1,2 +1,2 @@
-# TransPrune
-The code will be unveiled once the article has been accepted.
+# [CVPR 2026] TransPrune
+
