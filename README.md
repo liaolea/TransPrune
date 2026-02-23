@@ -7,25 +7,22 @@
 * **[2026-02-21]** 🎉 Our paper has been accepted by **CVPR 2026**!
 * **[2025-07-15]** 📄 ArXiv version is released: [2507.20630](https://arxiv.org/abs/2507.20630).
 
-
 ## 🔧 Install
 
 1. Clone this repository
 ```bash
-git clone https://github.com/Cooperx521/PyramidDrop.git
+git clone https://github.com/liaolea/TransPrune.git
 cd TransPrune
 ```
 
 2. Install Package
 ```Shell
-conda create -n pdrop python=3.10 -y
-conda activate pdrop
+conda create -n transprune python=3.10 -y
+conda activate transprune
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
 
-3. Install additional packages for training
-```
-pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
-```
+## 📊 Evaluation
+
+We provide scripts to evaluate TransPrune on standard Large Vision-Language Model benchmarks. See .scrpts/transprune
