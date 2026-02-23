@@ -25,4 +25,17 @@ pip install -e .
 
 ## 📊 Evaluation
 
-We provide scripts to evaluate TransPrune on standard Large Vision-Language Model benchmarks. See .scrpts/transprune
+We provide scripts to evaluate TransPrune on standard Large Vision-Language Model benchmarks. See .scrpts/transprune/
+
+## Cite us
+```
+@misc{li2025transprunetokentransitionpruning,
+      title={TransPrune: Token Transition Pruning for Efficient Large Vision-Language Model}, 
+      author={Ao Li and Yuxiang Duan and Jinghui Zhang and Congbo Ma and Yutong Xie and Gustavo Carneiro and Mohammad Yaqub and Hu Wang},
+      year={2025},
+      eprint={2507.20630},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.20630}, 
+}
+```
